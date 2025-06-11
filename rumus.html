@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematika</title>
+        <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            overflow-x: hidden;
+            list-style: none;
+        }
+
+        header {
+            display: inline;
+            background-color: black;
+        }
+
+        nav {
+            display: flex;
+            padding: 10px;
+            background-color: black;
+        }
+
+        .nav-title {
+            font-size: 30px;
+            color: white;
+        }
+
+        .nav-rumus, .nav-tentang, .nav-lingkaran {
+            margin-top: 5px;
+            font-size: 20px;
+        }
+
+        .nav-tentang, .nav-rumus {
+            position: relative;
+            right: -400px;
+        }
+
+        .nav-rumus {
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+
+        .nav-lingkaran {
+            position: relative;
+            right: -400px;
+        }
+
+        li a {
+            color: white;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .head-container {
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        .head-container h1 {
+            font-size: 35px;
+        }
+
+        .head-container p {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .article {
+            margin-top: 30px;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        .article .article-title {
+            font-size: 35px;
+        }
+
+        .article p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .unsur-img {
+            height: 200px;
+            margin-top: 5px;
+        }
+
+        .unsur-title {
+            font-size: 25px;
+        }
+
+        @media screen and (max-width: 895px) {
+            nav li {
+                position: relative;
+                left: 100px;
+            }
+        }
+
+        @media screen and (max-width: 545px) {
+            nav li {
+                position: relative;
+                left: 50px;
+            }
+
+            nav li a {
+                font-size: 17px;
+            }
+        }
+
+        @media screen and (max-width: 455px) {
+            nav li a {
+                font-size: 15px;
+            }
+
+            nav li {
+                position: relative;
+                left: 30px;
+            }
+
+            .nav-title {
+                font-size: 20px;
+                margin-top: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <li class="nav-title">Matematika</li>
+            <li class="nav-lingkaran"><a href="index.html">Lingkaran</a></li>
+            <li class="nav-rumus"><a href="rumus.html">Rumus</a></li>
+            <li class="nav-tentang"><a href="tentang.html">Tentang</a></li>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="head-container">
+                <h1>Rumus Lingkaran</h1>
+                <p>Rumus lingkaran dalam website ini diantara lain ada : Persamaan lingkaran, garis singgung persekutuan luar, garis singgung persekutuan dalam, panjang busur, dan luas juring.</p>
+            </div>
+
+            <div class="article">
+                <h1>Persamaan Lingkaran</h1>
+                <p><b>Titik Pusat (0,0)</b><br>Rumus persamaan lingkaran jika memiliki titik pusat (0,0) yaitu : <b>x² + y² = r²</b></p><br>
+                <p><b>Titik Pusat (a,b)</b><br>Rumus persamaan lingkaran jika memiliki titik pusat (a,b) yaitu : <b>(x - a)² + (y - b)² = r². </b></p>
+            </div>
+
+
+            <div class="article">
+                <h1>Garis Singgung Persekutuan Luar</h1>
+                <p>Rumus Garis Singgung Persekutuan Luar yaitu : <b>d = √(s² - (R - r)²) </b></p>
+                <br><br>
+                <h1>Garis Singgung Persekutuan Dalam</h1>
+                <p>Rumus Garis Singgung Persekutuan Dalam yaitu : <b>d = √(s² - (R + r)²)</b></p>
+            </div>
+
+            <div class="article">
+                <h1>Panjang Busur</h1>
+                <p>Rumus Panjang Busur yaitu : <b>L = (θ/360°) * 2πr</b></p>
+            </div>
+
+            <div class="article">
+                <h1>Luas Juring</h1>
+                <p>Rumus Luas Juring yaitu : <b>α/360° × πr²</b></p>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
